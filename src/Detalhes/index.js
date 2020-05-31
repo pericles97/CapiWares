@@ -38,7 +38,7 @@ export default function Detalhes({ hashUser }) {
   return (
     <>
     <Content>
-      <Title>Blockchain</Title>
+      <Title>Histórico de Registros</Title>
 
       <MyContent>
       <div className={classes.root}>
