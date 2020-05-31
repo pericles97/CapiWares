@@ -1,0 +1,78 @@
+.swal-modal {
+    width: 500px !important;
+    height: 410px !important;
+    opacity: 0;
+    pointer-events: none;
+    background-color: #fff;
+    text-align: center !important;
+    border-radius: 5px;
+    position: static;
+    margin: 20px auto !important;
+    padding-top: 35px !important;
+    display: inline-block;
+    vertical-align: middle;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    z-index: 10001;
+    transition: transform 0.3s, opacity 0.2s;
+  }
+  
+  #seila {
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+  }
+
+  .swal-title {
+    font-size: 2rem !important;
+    padding-bottom: 2% !important;
+  }
+  
+  .swal-text {
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    padding-bottom: 3% !important;
+    width: 80% !important;
+  }
+  
+  .swal-icon:first-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .swal-button--confirm {
+    color: #fff !important;
+    background-color: #32aa54 !important;
+    /* margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important; */
+  }
+
+  .swal-button--cancel {
+    color: #32aa54 !important;
+    background-color: #fff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .swal-footer {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding: 5px 16px !important;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .swal-button-container {
+    margin: 6px;
+    display: inline-block;
+    position: relative;
+  }
+  
